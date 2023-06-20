@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GUI.Activitys.GUI_CU_01_Registrar_Producto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Nombre_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Nombre"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:inputType = "text"/>
+            <EditText
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Marca_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Marca"
+                android:inputType = "text"/>
+            <EditText
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Descripcion_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Descripcion"
+                android:inputType = "textMultiLine"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Seleccione la Categoria"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Categoria_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Categoria"/>
+            <EditText
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Precio_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Precio"
+                android:inputType = "numberDecimal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Puntos fidelidad para canjear"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Puntos_Fidelidad_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Puntos Fidelidad"/>
+            <EditText
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Tamano_Producto_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Tamaño producto"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:inputType = "text"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Seleccione tipo envase"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Tipo_Envase_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Tipo Envase"/>
+            <EditText
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Cantidad_Existencia_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Cantidad en existencia"
+                android:inputType = "number"/>
+
+            <TextView
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Ruta_Imagen_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Ruta de imagen"
+                android:inputType = "textMultiLine"/>
+
+            <Button
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Seleccionar_Imagen_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Seleccionar Imagen"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/green"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"/>
+
+            <Button
+                android:id="@+id/Activity_GUI_CU_01_Registrar_Producto_Registrar_Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="Registrar Producto"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/green"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "44051131717",
+    "project_id": "cafeteriacofei-91a93",
+    "storage_bucket": "cafeteriacofei-91a93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44051131717:android:06ba23012e1fafa152622c",
+        "android_client_info": {
+          "package_name": "com.example.appcofei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44051131717-8es2rlluh3gkv74at4i1j02js77pfsad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appcofei",
+            "certificate_hash": "33a9cdc7a429f36bcc26f56eed5d63b1eb6f251c"
+          }
+        },
+        {
+          "client_id": "44051131717-q4f5jvgujglh2tainqnk2a8jhvpq0riq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB06BRN6b6mk1HvnfLDAx36M-viQGFCZwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44051131717-q4f5jvgujglh2tainqnk2a8jhvpq0riq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

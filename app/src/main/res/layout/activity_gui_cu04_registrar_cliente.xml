@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GUI.Activitys.GUI_CU_04_Registrar_Cliente">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:orientation = "vertical">
+
+            <TextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "Registro"
+                android:textSize = "50dp"
+                android:layout_marginTop = "10dp"
+                android:layout_marginLeft = "25dp"/>
+
+            <TextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "Complete el formulario"
+                android:textSize = "14dp"
+                android:layout_marginTop = "5dp"
+                android:layout_marginLeft = "25dp"/>
+
+            <EditText
+                android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_Nombre_EditText"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:hint = "Nombre(s)"
+                android:layout_marginRight = "20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_marginTop = "10dp"
+                android:textSize = "15sp"
+                android:padding = "15dp"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:inputType = "text"/>
+
+            <EditText
+                android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_APaterno_EditText"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:hint = "Apellido Paterno"
+                android:layout_marginRight = "20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_marginTop = "10dp"
+                android:textSize = "15sp"
+                android:padding = "15dp"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:inputType = "text"/>
+
+            <EditText
+                android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_AMaterno_EditText"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:hint = "Apellido Materno"
+                android:layout_marginRight = "20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_marginTop = "10dp"
+                android:textSize = "15sp"
+                android:padding = "15dp"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:inputType = "text"/>
+
+            <EditText
+                android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_Correo_EditText"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:hint = "Correo"
+                android:layout_marginRight = "20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_marginTop = "10dp"
+                android:textSize = "15sp"
+                android:padding = "15dp"
+                android:inputType = "textEmailAddress"/>
+
+            <EditText
+                android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_Telefono_EditText"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:hint = "Telefono"
+                android:layout_marginRight = "20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_marginTop = "10dp"
+                android:textSize = "15sp"
+                android:padding = "15dp"
+                android:digits="0123456789"
+                android:inputType = "phone"/>
+
+            <EditText
+                android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_Matricula_EditText"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:hint = "Matricula"
+                android:layout_marginRight = "20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_marginTop = "10dp"
+                android:textSize = "15sp"
+                android:padding = "15dp"
+                android:inputType = "text"/>
+
+            <EditText
+                android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_Contrasena_EditText"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:hint = "Contraseña"
+                android:layout_marginRight = "20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_marginTop = "10dp"
+                android:textSize = "15sp"
+                android:padding = "15dp"
+                android:inputType = "textPassword"/>
+
+            <EditText
+                android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_Confirmar_Contrasena_EditText"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:hint = "Confirmar contraseña"
+                android:layout_marginRight = "20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_marginTop = "10dp"
+                android:textSize = "15sp"
+                android:padding = "15dp"
+                android:inputType = "textPassword"/>
+
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:orientation = "vertical"
+                android:layout_gravity = "bottom"
+                android:gravity = "center"
+                android:layout_marginTop ="50dp">
+
+                <Button
+                    android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_Registrarse_Button"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text = "Registrarse"
+                    android:layout_marginLeft = "20dp"
+                    android:layout_marginRight = "20dp"/>
+
+                <TextView
+                    android:id = "@+id/Activity_GUI_CU_04_Registrar_Cliente_Cancelar_TextView"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:text = "Cancelar"
+                    android:textStyle="bold"
+                    android:textSize = "20dp"
+                    android:layout_marginTop = "5dp"
+                    android:layout_marginBottom = "15dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

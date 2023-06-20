@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/drawable/ic_edit_24.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/drawable/ic_eye_24.xml" value="0.21944444444444444" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu01_registrar_producto.xml" value="0.2" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu02_modificar_producto.xml" value="0.23282051282051283" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu03_iniciar_sesion.xml" value="0.2890625" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu03_iniciarsesion.xml" value="0.115625" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu04_registrar_cliente.xml" value="0.264" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu09_registrar_emplaedo.xml" value="0.4" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu11_consultar_producto.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu_gestionar_producto.xml" value="0.23282051282051283" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_cu_menu_administrador.xml" value="0.23282051282051283" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_menu_administrador.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_gui_menu_cliente.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/activity_main.xml" value="0.3695652173913043" />
+        <entry key="..\:/Users/YC-ADM/AndroidStudioProjects/AppCOFEI/app/src/main/res/layout/lista_productos_layout.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
